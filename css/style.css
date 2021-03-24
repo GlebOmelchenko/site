@@ -181,7 +181,7 @@ body{
     display: block;
     position: relative;
     width: 1280px;
-    height: 3120px;
+    max-height: 3120px;
     
     background: linear-gradient(287.56deg, rgba(252, 146, 146, 0.91) 19.27%, rgba(253, 255, 134, 0.91) 63.54%, rgba(253, 255, 134, 0.91) 80.96%);
     mix-blend-mode: normal;
@@ -190,12 +190,7 @@ body{
     box-shadow: 0px 4px 4px rgba(254, 0, 0, 0.25);
 }
 
-@media (max-width:992px) {
-    
-}
-@media (max-width:767px) {
-    
-}
+
 
 .wrapper{
     width: 1280px;

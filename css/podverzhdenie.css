@@ -180,23 +180,14 @@ body{
     margin: 0 auto;
     display: block;
     position: relative;
-width: 1280px;
-height: 1000px;
-
-background: linear-gradient(287.56deg, rgba(252, 146, 146, 0.91) 19.27%, rgba(253, 255, 134, 0.91) 63.54%, rgba(253, 255, 134, 0.91) 80.96%);
-mix-blend-mode: normal;
-border: 1px solid #FFFFFF;
-box-sizing: border-box;
-box-shadow: 0px 4px 4px rgba(254, 0, 0, 0.25);
-}
-.container1{
-    position: absolute;
-width: 1280px;
-height: 1000px;
-left: 0px;
-top: 0px;
-
-background: rgba(209, 18, 240, 0.24);
+    width: 1280px;
+    height: 1000px;
+    
+    background: linear-gradient(287.56deg, rgba(252, 146, 146, 0.91) 19.27%, rgba(253, 255, 134, 0.91) 63.54%, rgba(253, 255, 134, 0.91) 80.96%);
+    mix-blend-mode: normal;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(254, 0, 0, 0.25);
 }
 
 
@@ -404,115 +395,114 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.9));
     left: 1044px;
     top: 40.27px;
     }
-.zagolovok{
-    position: absolute;
-width: 765px;
-height: 78px;
-left: 257px;
-top: 172px;
+    .zagolovok{
+        position: absolute;
+        width: 560px;
+        height: 78px;
+        left: 364px;
+        top: 184px;
+        
+        font-family: Montserrat;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 60px;
+        /* or 125% */
+        
+        letter-spacing: 0.08em;
+background: linear-gradient( #FE4589 0%, #BF980B 100%);
+-webkit-background-clip: text; /* Обрезаем фон по тексту */
+-webkit-text-fill-color: transparent;
+    }
+    .forma{
+        position: absolute;
+        width: 784px;
+        height: 465px;
+        left: 251px;
+        top: 297px;
+        
+        background: linear-gradient(153.92deg, rgba(13, 252, 223, 0.94) 1.46%, rgba(87, 253, 233, 0.7332) 1.47%, rgba(54, 241, 252, 0.564) 83.57%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        border-radius: 40px;
+    }
+    .text{
+        position: absolute;
+        width: 517.05px;
+        height: 23px;
+        left: 126px;
+        top: 50px;
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.01em;
+        
+        color: #000000;
+        
+    }
+    .pole{
+        position: absolute;
+        width: 544px;
+        height: 38px;
+        left: 115px;
+        top: 93px;
+        
+        background: #FFFFFF;
+        border-radius: 20px;
+    }
+    .text2{
+        position: absolute;
+width: 517.05px;
+height: 23px;
+left: 131px;
+top: 138px;
 
 font-family: Montserrat;
-font-style: italic;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.01em;
+
+color: #000000;
+    }
+    .sposobdostavki{
+        position: absolute;
+width: 539.01px;
+height: 72px;
+left: 120px;
+top: 181px;
+
+background: #FFFFFF;
+border-radius: 20px;
+    }
+    .knopka{
+        position: absolute;
+        width: 540px;
+        height: 130px;
+        left: 119px;
+        top: 279px;
+        
+        background: rgba(44, 230, 174, 0.71);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.45);
+        border-radius: 80px;
+    }
+    .knopka_text{
+        position: absolute;
+width: 408.72px;
+height: 40.2px;
+left: 74.31px;
+top: 41.91px;
+
+font-family: Montserrat;
+font-style: normal;
 font-weight: 900;
-font-size: 48px;
-line-height: 60px;
-/* or 125% */
+font-size: 36px;
+line-height: 44px;
+letter-spacing: 0.05em;
 
-letter-spacing: 0.08em;
-background: linear-gradient( #FE4589 0%, #BF980B 100%);
--webkit-background-clip: text; /* Обрезаем фон по тексту */
--webkit-text-fill-color: transparent;
-}
-.block_infa1{
-position: absolute;
-width: 558px;
-height: 514px;
-left: 56px;
-top: 286px;
+color: #100B06;
 
-background: linear-gradient(15deg, rgba(255, 255, 255, 0.65) 100%, rgba(255, 255, 255, 150) 10%);
-    filter: drop-shadow(0px 4px 4px #000000);
-    border-radius: 10px;
-}
-.img1infa1{
-    position: absolute;
-    width: 495px;
-    height: 148px;
-    left: 36px;
-    top: 66px;
-}
-.text1{
-    position: absolute;
-width: 482px;
-height: 78px;
-left: 38px;
-top: 218px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 60px;
-/* or 125% */
-
-letter-spacing: 0.08em;
-background: linear-gradient( #FE4589 0%, #BF980B 100%);
--webkit-background-clip: text; /* Обрезаем фон по тексту */
--webkit-text-fill-color: transparent;
-}
-
-.img2infa1{
-    position: absolute;
-width: 563px;
-height: 167px;
-left: 0px;
-top: 292px;
-
-}
-
-.block_infa2{
-    position: absolute;
-    width: 558px;
-    height: 514px;
-    left: 666px;
-    top: 286px;
-    
-    background: linear-gradient(15deg, rgba(255, 255, 255, 0.65) 100%, rgba(255, 255, 255, 150) 10%);
-    filter: drop-shadow(0px 4px 4px #000000);
-    border-radius: 10px;
-}
-.img1infa2{
-    position: absolute;
-width: 495px;
-height: 199px;
-left: 31px;
-top: 15px;
-}
-.text2{
-    position: absolute;
-width: 456px;
-height: 78px;
-left: 51px;
-top: 216px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 700;
-font-size: 48px;
-line-height: 60px;
-/* or 125% */
-
-letter-spacing: 0.08em;
-background: linear-gradient( #FE4589 0%, #BF980B 100%);
--webkit-background-clip: text; /* Обрезаем фон по тексту */
--webkit-text-fill-color: transparent;
-}
-.img2infa2{
-    position: absolute;
-    width: 376px;
-    height: 222px;
-    left: 102px;
-    top: 292px;
-}
-
-   
+    }
